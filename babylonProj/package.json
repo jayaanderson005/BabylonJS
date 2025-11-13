@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc && vite build",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host",
+      "collision3build": "vite build collision3",
+    "collision3preview": "vite preview collision3 --host"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
     "vite": "^7.1.7"
   }
+
+  
 }
